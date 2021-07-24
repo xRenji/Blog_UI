@@ -1,0 +1,307 @@
+@import url(//db.onlinewebfonts.com/c/ff21985e04861bb8d9745440ee1e2e7d?family=Swis721+Lt+BT);
+
+/* GENERAL */
+body {
+  margin: 0;
+}
+a,
+a:link,
+a:visited {
+  text-decoration: none;
+  color: #303030;
+}
+
+/******** BLOG PAGE (INDEX.HTML) ********/
+
+/* BANNER */
+.banner-container img {
+  display: block;
+  width: 100%;
+}
+
+/* SEARCH SECTION */
+.search-container {
+  width: 80%;
+  margin: 1rem auto auto auto;
+  height: 50px;
+  padding: 2rem 2rem 1rem 3rem;
+  background: #f2f2f2;
+}
+.form-style {
+  display: grid;
+  grid-template-columns: 2fr 1fr 3fr;
+  text-align: center;
+}
+.search-box {
+  margin: auto 1rem auto 1rem;
+  width: 100%;
+}
+.search-input {
+  border: 1px solid #163f67;
+  border-radius: 4px;
+  height: 2rem;
+}
+.search-button {
+  width: 40px;
+  height: 36px;
+  border: 5px solid #163f67;
+  margin-left: -0.5rem;
+  background: #163f67;
+  text-align: center;
+  color: #fff;
+  border-radius: 3px 3px 3px 3px;
+  font-size: 20px;
+  cursor: pointer;
+}
+.search-button-ipad {
+  display: none;
+}
+.filters {
+  margin: auto;
+}
+.filters label {
+  font-family: Swis721 Lt BT;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 1rem;
+  line-height: 10px;
+  color: #163f67;
+}
+.filters select {
+  border: 0.3px solid #163f67;
+  box-sizing: border-box;
+  color: #163f67;
+  font-family: Swis721 Lt BT;
+}
+
+/* CONTENT SECTION */
+.main-container {
+  margin: auto;
+  width: 80%;
+}
+.title {
+  font-family: Swis721 BT;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 32px;
+  line-height: 29px;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  color: #163f67;
+}
+
+/* LATEST SECTION */
+.post-container {
+  margin-top: 1rem;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  border-bottom: 1px solid rgb(228, 228, 228);
+  padding-bottom: 1rem;
+}
+.post-image {
+  width: 50%;
+}
+
+.description-container {
+  margin-left: -12rem;
+  margin-top: 1rem;
+}
+.headline {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-column-gap: 10rem;
+}
+.left-headline {
+  text-align: left;
+}
+.left-headline h6 {
+  display: inline;
+  padding: 5px;
+  font-family: Swis721 Md BT;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 0.7rem;
+  line-height: 10px;
+  color: #51b4b2;
+}
+.right-headline {
+  text-align: right;
+}
+.right-headline h6 {
+  display: inline;
+  justify-content: right;
+  font-family: Swis721 Md BT;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 0.7rem;
+  line-height: 10px;
+  border-color: #51b4b2;
+  color: #51b4b2;
+}
+
+.category {
+  border: 1px solid black;
+  padding: 2px;
+  width: 60px;
+}
+.post-title {
+  font-family: Swis721 Md BT;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 1.5rem;
+  color: #303030;
+  width: 70%;
+}
+.post-title a:hover {
+  color: #51b4b2;
+}
+/* MORE ARTICLES SECTION */
+.articles-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  margin-right: 5rem;
+  padding-bottom: 1rem;
+  border-bottom: 1px solid rgb(228, 228, 228);
+}
+.article-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  margin: 1rem 1rem 1rem 0;
+}
+.article-container img {
+  width: 80%;
+}
+.desc-container {
+  margin-left: -2rem;
+}
+.desc-container h2 {
+  font-family: Swis721 Md BT;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 1rem;
+  color: #303030;
+  width: 70%;
+  padding: 10px;
+  margin: 0;
+}
+.desc-container h6 {
+  display: inline;
+  padding: 10px;
+  font-family: Swis721 Md BT;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 0.7rem;
+  line-height: 10px;
+  color: #51b4b2;
+}
+.desc-container h2 a:hover {
+  color: #51b4b2;
+}
+
+/******** POST PAGE (POST.HTML) ********/
+
+.top-controller {
+  margin: 5rem 5rem 3rem 10rem;
+}
+/* CONTROLLERS */
+.top-controller a {
+  font-family: Swis721 BT;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 1rem;
+  line-height: 12px;
+  text-transform: uppercase;
+  color: #163f67;
+}
+.top-controller a:hover {
+  color: #51b4b2;
+}
+.bottom-controller {
+  margin: 1rem 5rem 8rem 10rem;
+}
+#right-controller {
+  float: right;
+  font-family: Swis721 BT;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 1rem;
+  line-height: 12px;
+  text-transform: uppercase;
+  color: rgb(228, 228, 228);
+}
+#right-controller:hover {
+  color: #51b4b2;
+}
+#left-controller {
+  font-family: Swis721 BT;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 1rem;
+  line-height: 12px;
+  text-transform: uppercase;
+  color: rgb(228, 228, 228);
+}
+#left-controller:hover {
+  color: #51b4b2;
+}
+/* SINGLE POST  SECTION */
+.single-post-container {
+  margin-left: 10rem;
+}
+.post-header {
+  display: grid;
+  grid-template-columns: 2fr 2fr;
+}
+.post-header img {
+  width: 80%;
+}
+.post-description {
+  margin-top: 3rem;
+  margin-left: -5rem;
+}
+.post-category {
+  display: inline;
+  font-family: Swis721 Md BT;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 0.7rem;
+  line-height: 10px;
+  border: 1px solid;
+  padding: 5px;
+  margin-right: 10px;
+  border-color: #51b4b2;
+  color: #51b4b2;
+}
+.post-description h6 {
+  color: #51b4b2;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 0.7rem;
+  line-height: 10px;
+}
+.post-description h2 {
+  font-family: Swis721 Md BT;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 2.5rem;
+  color: #163f67;
+  width: 80%;
+}
+.post-content {
+  margin-top: 5rem;
+  margin-right: 5rem;
+  font-family: Swis721 Lt BT;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 1.5rem;
+  line-height: 150%;
+  color: #303030;
+  border-bottom: 1px solid rgb(228, 228, 228);
+  padding-bottom: 5rem;
+}
+#single-post-more-container {
+  margin: 1rem 5rem 8rem 10rem;
+  width: 80%;
+}
